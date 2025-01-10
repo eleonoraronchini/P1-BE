@@ -21,16 +21,18 @@ public class Immagine extends elementoMultimediale implements Luminosita {
     }
 
     @Override
-    public void aumentaLuminosita() {
+    public int aumentaLuminosita() {
         luminosita++;
+        return luminosita;
 
     }
 
     @Override
-    public void diminuisciLuminosita() {
+    public int diminuisciLuminosita() {
         if (luminosita>0){
             luminosita--;
         }
+        return luminosita;
     }
 
     public void show(){

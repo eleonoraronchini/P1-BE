@@ -18,15 +18,17 @@ public class Video extends elementoMultimediale implements Luminosita, Audio{
     }
 
     @Override
-    public void abbassaVolume() {
+    public int abbassaVolume() {
         if (volume>0){
             volume--;
         }
+        return volume;
     }
 
     @Override
-    public void alzaVolume() {
+    public int alzaVolume() {
         volume ++;
+        return volume;
     }
 
     public void play() {
@@ -37,16 +39,17 @@ public class Video extends elementoMultimediale implements Luminosita, Audio{
     }
 
     @Override
-    public void aumentaLuminosita() {
+    public int aumentaLuminosita() {
         luminosita++;
+        return luminosita;
 
     }
 
     @Override
-    public void diminuisciLuminosita() {
+    public int diminuisciLuminosita() {
         if (luminosita>0){
             luminosita--;
-        }
+        } return luminosita;
 
     }
 }

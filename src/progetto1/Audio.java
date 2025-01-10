@@ -1,7 +1,7 @@
 package progetto1;
 
 public interface Audio {
-    public void abbassaVolume();
-    public void alzaVolume ();
+    public int abbassaVolume();
+    public int alzaVolume ();
 
 }

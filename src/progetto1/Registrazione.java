@@ -15,15 +15,17 @@ public class Registrazione extends elementoMultimediale implements Audio {
         play();
     }
 
-    public void abbassaVolume() {
+    public int abbassaVolume() {
         if (volume>0) {
             volume--;
         }
-       }
+        return volume;
+    }
 
     @Override
-    public void alzaVolume() {
+    public int alzaVolume() {
         volume++;
+        return volume;
     }
 
 
