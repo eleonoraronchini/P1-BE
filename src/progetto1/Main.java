@@ -24,6 +24,7 @@ public class Main {
         System.out.println(r1.alzaVolume());
 
         //prova comandi alza e abbassa luminosita
+
         System.out.println(v1.aumentaLuminosita());
         System.out.println(im2.diminuisciLuminosita());
 

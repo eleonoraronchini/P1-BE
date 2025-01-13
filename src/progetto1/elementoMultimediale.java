@@ -4,7 +4,8 @@ public abstract class elementoMultimediale {
     protected String titolo;
 
     public elementoMultimediale(String titolo){
-        this.titolo = titolo;}
+        this.titolo = titolo;
+    }
 
     //metodo che ritorna il titolo dell'elemento multimediale
     public String info(){
